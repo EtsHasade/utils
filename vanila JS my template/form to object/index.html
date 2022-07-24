@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form to Object</title>
+</head>
+<body>
+    <form class="my-form" onsubmit="handleFormData(event, this)">
+        <label>
+            <input type="text" name="first-name" placeholder="F.name">
+            First name
+        </label>
+        <label>
+            <input type="text" name="last-name" placeholder="L.name">
+            Last name
+        </label>
+        <label>
+            <input type="email" name="email" placeholder="myName@mymail.com">
+            Email
+        </label>
+        <button type="submit">Save</button>
+    </form>
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
